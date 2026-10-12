@@ -1,11 +1,11 @@
 # Customer Acquisition Marketing 
 
-# Project Overview
+## Project Overview
 The Customer Acquisition Marketing Mix Assessment analyzes marketing spending, customer acquisition, campaign performance, and customer value to support better marketing investment decisions.
 The business challenge is to understand which marketing channels bring valuable customers, whether customers return and purchase again, and how an additional ₹25 crore budget could be allocated across channels and interventions.
 This project uses Excel, MySQL, and Power BI to clean data, perform analysis, and present findings through interactive dashboards.
 
-# Business Objectives
+## Business Objectives
 - Audit and clean marketing and customer data.
 - Compare acquisition channels using spend, customers, orders, GMV, and margin.
 - Analyze first-order and repeat-order economics.
@@ -20,8 +20,8 @@ Tools and Technologies
 - MySQL: Data aggregation, joins, CTEs, window functions, attribution analysis, and analytical views.
 - Microsoft Power BI: Interactive KPI cards, charts, tables, slicers, and dashboards.
 
-# Project Workflow
-# 1. Excel: Data Cleaning and Analysis
+## Project Workflow
+## 1. Excel: Data Cleaning and Analysis
 Data cleaning performed:
 - Checked for duplicate records and missing values.
 - Reviewed inconsistent channel labels, formatting issues, and unusual values.
@@ -32,7 +32,7 @@ Analysis performed after cleaning:
 - Compared campaign budgets with recorded marketing spend.
 - Reviewed channel-level campaign and marketing performance data.
 - Organized the cleaned data for further analysis in MySQL and Power BI.
-# 2. MySQL: SQL Analysis
+## 2. MySQL: SQL Analysis
 The SQL analysis covers:
 1. Acquisition-to-LTV funnel: Joined customer, order, retention, marketing spend, and channel target information to compare acquisition and customer value by channel.
 2. First-order vs. repeat-order economics: Compared order counts, customers, GMV, margin, average order value, and average margin per order.
@@ -40,14 +40,14 @@ The SQL analysis covers:
 4. Attribution comparison: Compared first-touch, last-touch, and simplified multi-touch attribution using session and order data.
 5. Spend growth vs. conversion growth: Compared month-over-month campaign spend and reported conversion changes to flag campaigns for further review.
 SQL techniques used include JOIN, GROUP BY, aggregate functions, CASE WHEN, CTEs (WITH), DENSE_RANK(), LAG(), and window functions.
-# 3. MySQL: Analytical Views
+## 3. MySQL: Analytical Views
 Created five reusable analytical views for Power BI:
 - vw_executive_growth
 - vw_channel_economics
 - vw_cohort_retention_ltv
 - vw_campaign_performance
 - vw_budget_simulator
-# 4. Power BI: Interactive Dashboards
+## 4. Power BI: Interactive Dashboards
 Five dashboard pages were created:
 1. Executive Growth Scorecard
 Provides an overview of acquisition and marketing performance using KPI cards and channel-level comparisons.
@@ -60,7 +60,7 @@ Compares campaign budgets with spend, ranks campaigns by spend, and displays rep
 5. ₹25 Crore Budget Simulator
 Explores proposed additional budget allocation and conservative, base, and aggressive scenarios using assumed ROAS and CAC inputs.
 
-# Business Value
+## Business Value
 The project provides a structured way to:
 - Understand how marketing spend is distributed across channels and campaigns.
 - Compare recorded acquisition, order, and customer value metrics.
