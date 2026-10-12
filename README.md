@@ -1,6 +1,6 @@
-## Customer Acquisition Marketing 
+# Customer Acquisition Marketing 
 
-#Project Overview
+# Project Overview
 The Customer Acquisition Marketing Mix Assessment analyzes marketing spending, customer acquisition, campaign performance, and customer value to support better marketing investment decisions.
 The business challenge is to understand which marketing channels bring valuable customers, whether customers return and purchase again, and how an additional ₹25 crore budget could be allocated across channels and interventions.
 This project uses Excel, MySQL, and Power BI to clean data, perform analysis, and present findings through interactive dashboards.
